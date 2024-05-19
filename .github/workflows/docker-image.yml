@@ -28,4 +28,4 @@ jobs:
         docker build -t josvalk/docker-graphql:0.0.1 .
     - name: Push docker image
       run: |
-        docker push josvalk/docker-graphql:0.0.1 .
+        docker push josvalk/docker-graphql:0.0.1
